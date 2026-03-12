@@ -407,18 +407,18 @@ export default function App() {
 
               <div className="bg-white rounded-3xl shadow-xl border border-slate-200 overflow-hidden">
                 <div className="grid md:grid-cols-2 gap-0">
-                  <div className="h-64 md:h-auto relative bg-slate-100">
+                  <div className="aspect-square md:aspect-auto md:h-full relative bg-slate-100">
                     <img 
                       src="https://i.ibb.co/LdmbxghY/Gemini-Generated-Image-fzxw5qfzxw5qfzxw.png" 
                       alt="Protocolo Japonês" 
-                      className="absolute inset-0 w-full h-full object-cover"
+                      className="absolute inset-0 w-full h-full object-cover object-center"
                       referrerPolicy="no-referrer"
                     />
                   </div>
                   <div className="p-4 sm:p-8">
                     <div className="prose sm:prose-lg max-w-none text-slate-700 leading-relaxed space-y-4">
                     <p>
-                      Apresentamos a descoberta de um <strong>protocolo japonês com 30 receitas naturais</strong>, incluindo um chá específico utilizado há gerações para ajudar a reduzir o zumbido e promover a saúde auditiva.
+                      Uma <strong>nova descoberta científica japonesa</strong> revelou um protocolo com 30 receitas naturais, incluindo um chá específico utilizado há gerações para ajudar a reduzir o zumbido e promover a saúde auditiva.
                     </p>
                     <p>
                       Este protocolo foi inspirado em práticas tradicionais do Japão e utiliza ingredientes simples e naturais que podem ser preparados na sua própria casa, sem complicações ou equipamentos caros.
